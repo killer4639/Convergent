@@ -52,3 +52,13 @@
 - Prefer explicit error types and testable state machines for synchronization and distributed coordination code.
 - When adding distributed coordination code, document the expected failure semantics and membership assumptions near the implementation or in the README.
 - Prefer local orchestration and observability that work well on one machine, including containerized node simulation and repeatable metric collection.
+
+## Documentation
+
+- Maintain structured project documentation under `docs/`.
+- Use `docs/README.md` as the documentation index and update it when new important documents are added.
+- Put setup and local environment instructions under `docs/setup/`.
+- Put design and architecture notes under `docs/architecture/`.
+- Put correctness and validation notes under `docs/testing/`.
+- Put benchmark, comparison, and metrics write-ups under `docs/experiments/`.
+- When work changes setup, architecture, or evaluation workflow, update the matching document as part of the same change.
