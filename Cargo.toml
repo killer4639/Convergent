@@ -4,6 +4,8 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+axum = "0.8"
 etcd-client = "0.16"
+prometheus = "0.13"
 rand = "0.9"
 tokio = { version = "1.0", features = ["full"] }

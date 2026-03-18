@@ -20,3 +20,4 @@ This folder contains project documentation organized by topic so the repository 
 
 - [`setup/local-etcd.md`](setup/local-etcd.md) - Start a local etcd instance in Docker for development.
 - [`setup/local-cluster.md`](setup/local-cluster.md) - Build and run three barrier containers against one local etcd instance.
+- [`research-distributed-barrier-learning-checkpoints.md`](research-distributed-barrier-learning-checkpoints.md) - Full project roadmap: performance metrics, benchmarks, scale ranges, and 12 learning checkpoints interleaving Rust skills with distributed barrier milestones.
